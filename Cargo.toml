@@ -1,0 +1,17 @@
+[package]
+name = "metacrate"
+version = "0.1.0"
+authors = [
+    "Denis Kolodin <deniskolodin@gmail.com>",
+    "overfloat <rillrate@gmail.com>",
+]
+edition = "2018"
+repository = "https://github.com/rate-technology/metacrate"
+homepage = "https://github.com/rate-technology/metacrate"
+description = "Metadata for crates"
+categories = ["development-tools"]
+keywords = ["metadata"]
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
