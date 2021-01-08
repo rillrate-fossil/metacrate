@@ -1,5 +1,10 @@
+#![warn(missing_docs)]
+
+//! This crate provides macros to attach metadata of the crate.
+
 meta!();
 
+/// Attaches metadata to the crate that called this macros.
 #[macro_export]
 macro_rules! meta {
     () => {
