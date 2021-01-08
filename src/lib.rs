@@ -8,6 +8,7 @@ meta!();
 #[macro_export]
 macro_rules! meta {
     () => {
+        #[doc(hidden)]
         /// The metadata of the crate.
         pub mod meta {
             /// Version.
